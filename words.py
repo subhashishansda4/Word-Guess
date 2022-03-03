@@ -16,3 +16,4 @@ sym = ['.', ',', '(', ')', '"', '-', '_', ':', ';', '/']
 for i in range(len(sym)):
     words_0 = [word.replace(sym[i], "") for word in words_0]
 print(words_0)
+
